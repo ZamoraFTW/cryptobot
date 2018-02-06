@@ -9,7 +9,6 @@ const request = require('request');
 
 bot.on('message', (msg) => {
 if (msg.text.toString().toLowerCase().indexOf("sao") === 0) {
-	console.log(msg.chat);
 	bot.sendMessage(msg.chat.id, "Sao mi patria, JoJo mi castigo.");
 }
 });
