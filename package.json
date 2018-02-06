@@ -1,0 +1,11 @@
+{
+  "name": "Cryptobot",
+  "version": "1.0.0",
+  "description": "Bot Telegram",
+  "main": "index.js",
+  "author": "Manuel Zamora Donoso",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
